@@ -167,3 +167,30 @@ header nav ul li a{
 .categories span {
   color: teal;
 }
+
+.card-cat {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2.7rem;
+  text-align: center;
+  margin: 1.7rem 0;
+}
+
+.card1,.card2,.card3,.card4,.card5 {
+  border: 1px solid rgba(191, 224, 224, 0.775);
+  height: 17.5rem;
+  width: 14rem;
+  padding: 0.7rem;
+  border-radius: 15px;
+}
+
+.card-cat img {
+  object-fit: cover;
+  width: 100%;
+  border-radius: 15px;
+}
+
+.card-cat h4 {
+  margin-top: 15px;
+  color: rgb(81, 81, 81);
+}
